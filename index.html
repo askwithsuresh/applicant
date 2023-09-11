@@ -1,0 +1,394 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Applicant Job Portal</title>
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css"/>
+<link rel="stylesheet" type="text/css" href="fonts/font.css"/>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+</head>
+
+<body>
+ <div class="parant">
+	<nav class="navbar navbar-fixed-top">
+    	<div class="container">
+        	<div class="navbar-header">
+            	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                	<span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                    <h1><a href="#"><img src="images/logo.png" width="220" height="39" alt="logo"/></a></h1>
+                
+            </div>
+                	<div class="collapse navbar-collapse nav-right" id="navbar-collapse">
+                    	<ul class="nav navbar-nav navbar-right">
+                    		<li><a href="#">Update Profile</a></li>
+                        	<li id="line"><img src="images/inline.png"/></li>
+                        	<li><a href="#">Success Stories (402)</a></li>
+                        	<li id="line"><img src="images/inline1.png"/></li>
+                        	<li><a href="#">Hi Admin </a></li>
+                        	<li id="line"><img src="images/inline1.png"/></li>
+                        	<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">My Account
+                        		<span class="caret"></span></a>
+        						<ul class="dropdown-menu">
+          							<li><a href="#"></a></li>
+          							<li><a href="#"></a></li>
+          							<li><a href="#"></a></li>
+          							<li><a href="#"></a></li>
+       					   		</ul></li>
+                    	</ul>
+                    </div>
+          </div>
+	</nav>
+    
+    <div class="banner">
+        	<div class="container">
+                    	<form method="post">
+                          <div class="form-inline center" align="center">
+                        	<div class="form-group">
+                            	<input type="text" class="form-control space" id="key" name="keyword" placeholder="Type in a keyword"/>
+                            </div>
+                            <div class="form-group">
+                            	<select class="form-control space" id="spec">
+                                	<option>Specialization</option>
+                                    <option></option>
+                                    <option></option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                            	<select class="form-control space" id="job">
+                                	<option>Any Job Level</option>
+                                    <option></option>
+                                    <option></option>
+                                </select>
+                            </div>
+                            	<button type="submit" id="search" class="btn btn-primary" >SEARCH</button>
+                           </div>
+                           <a href="#" class="advsearch">Advance Search</a> 
+                        </form>
+                    </div>
+            </div>
+            
+            <div class="container">
+          	<div class="row">
+        		<div class="col-md-8">
+            		<div class="left_content">
+                  		<div class="avatar col-md-6  col-sm-6 col-xs-12">
+                  			<div class="avatar-content">
+                				<img src="images/men.png" width="80" height="80" alt="Avatar"/>
+                             </div>
+                   			<div class="avatar2">
+                     			<h4 id="avatar_name">Michael Clarke</h4>
+                                <h6 class="designer">Designer / IT Support</h6>
+                                <p class="designer_int">Sed fringilla aliquet ex, vel maximus dui lobortis quis.</p>
+                 			</div>
+                  		 </div>
+                            <div class="profile col-md-6 col-sm-6 col-xs-12">
+                            	<h4>Profile Views</h4>
+                                <span class="numb">10</span> 
+                                <p class="pro_view">Company viewed your profile</p>
+                             </div>
+                	  </div>
+            	</div>
+                <div class="app col-md-4">
+                	<div class="horiz"></div>
+                	<h4 style="font-family: 'ProximaNova-Semibold';">My Applications</h4>
+                    <div class="h1"><hr></div>
+                    <p>You haven't applied for any job</p>
+                </div> 
+              </div> 
+        </div><!--end of container-->
+        
+        <div class="container">
+          	<div class="row">
+        		<div class="col-md-8">
+            		<div class="average">
+                  		<div class="pro">
+                   			<div class="pro">
+                     			<h4 id="pro_name">Your profile strength is above average</h4>
+                                <img src="images/progressbar.png"/>
+                                <p class="pro_details">Please fill in all details. The following sections are not completed in your profile. Employers give priority to candidates with a complete profile.</p>
+                               <a href="#" id="personal" class="btn btn-primary" >PERSONAL</a>
+                               <a href="#" class="space1">Update your profile.</a> 
+                 			</div>
+                  		 </div>
+                	  </div>
+            	</div>
+                <div class="sugg col-md-4 col-sm-4 col-xs-12">
+                	<h4 style="font-family: 'ProximaNova-Semibold';">Suggested Trainings for You</h4><hr/>
+                    <p>There are no suggested trainings</p>
+                </div>  
+        </div>
+       </div>     
+        
+        <div class="container">
+          	<div class="row">
+        		<div class="col-md-8">
+            		<div class="feature_content">
+                  		<div class="portal col-md-12 col-sm-12 col-xm-12">
+                   			<div class="avatar2">
+                     			<h4 id="portal_name">Featured Jobs on Job portal</h4>
+                                <div class="hr">
+                                	<hr/>
+                                </div>
+                                <div class="link">
+                                <div class="senior_marketing">
+                                	<p><span class="glyphicon glyphicon-menu-right"></span><a href="#"> Senior Marketing Manager at General Electric (GE)</a></p></div>
+                                    
+                                <div class="finance">
+                                	<p><span class="glyphicon glyphicon-menu-right"></span><a href="#"> Latest Banking and Finance Jobs In Nigeria</a></p></div>
+                                <div class="vacancies">
+                                <p><span class="glyphicon glyphicon-menu-right"></span><a href="#"> Latest Job Vacancies at Stanbic IBTC - Click here</a></p></div>
+                                <div class="plc">
+                                <p><span class="glyphicon glyphicon-menu-right"></span><a href="#"> Needed! Finance Officer at Oando Foundation Oando Plc</a></p></div>
+                                
+                                <div class="workplace">
+                                <p><span class="glyphicon glyphicon-menu-right"></span><a href="#">Join the discussion - What do you like about your workplace?</a></p></div>
+                                
+                                <div class="career">
+                                <p><span class="glyphicon glyphicon-menu-right"></span><a href="#">  Get your career on track with direct access to job opportunities - Click here</a></p></div>
+                                </div>
+                 			</div>
+                  		 </div>
+                	  </div>
+            	</div>    
+            
+            <div class="browse-job col-md-4 col-sm-4 col-xs-12">
+                	<h4 style="font-family: 'ProximaNova-Semibold';font-size:18px;">Browse Jobs</h4><hr/>
+                    	<form method="post">
+                          <div class="form-inline center1">
+                        	 <div class="form-group">
+                               <label for="location" class="loc" style="font-size:14px; font-family: 'ProximaNovaW01-Regular';">Job By Location</label>
+                            	<select class="form-control" id="location">
+                                	<option>Select your location</option>
+                                    <option></option>
+                                    <option></option>
+                                </select>
+                            </div>
+                            
+                            <div class="form-group">
+                               <label for="range" class="sal" style="font-size:14px;font-family: 'ProximaNovaW01-Regular';">Job By Location</label>
+                            	<select class="form-control" id="salary">
+                                	<option>Select your salary range</option>
+                                    <option></option>
+                                    <option></option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                               <label for="spec" class="special" style="font-size:14px;font-family: 'ProximaNovaW01-Regular';">Job By Location</label>
+                            	<select class="form-control" id="special">
+                                	<option>Jobs by specialization</option>
+                                    <option></option>
+                                    <option></option>
+                                </select>
+                            </div>
+                            
+                           </div><div class="go">
+                            	<button type="submit" id="go" class="btn btn-primary" >GO</button>
+                            </div>
+                        </form>
+                </div> 
+             </div> 
+        </div><!--end of container-->
+        
+        <div class="container">
+        	<div class="col-md-12">
+            	<div class="ad">
+            		<img src="images/ban-down.png" alt="ad"/>
+                </div>
+            </div>
+        </div> 
+         
+         <div class="container">
+          	<div class="row">
+        		<div class="col-md-12">
+            		<div class="career_content">
+                  		<div class="portal col-sm-12 col-xs-12">
+                   			<div class="avatar2">
+                     			<h4 id="portal_name">Career Advice and Articles from our Blog</h4>
+                                <div class="hr">
+                                	<hr />
+                                </div>
+                                <div class="link">
+                                <div class="senior_marketing">
+                                	<p><span class="glyphicon glyphicon-menu-right"></span><a href="#"> Osinbajo, Utomi to headline The Made in Nigeria Conference and Exhibition 2016</a></p></div>
+                                    
+                                <div class="finance">
+                                	<p><span class="glyphicon glyphicon-menu-right"></span><a href="#"> 10 Tips to Handle Interview Pressure In Front of a CEO of the Company</a></p></div>
+                                <div class="vacancies">
+                                <p><span class="glyphicon glyphicon-menu-right"></span><a href="#"> What Career to Pick if You’re an Introvert</a></p></div>
+                                <div class="plc">
+                                <p><span class="glyphicon glyphicon-menu-right"></span><a href="#">  ICONIC Releases 50 Leading Businesses in Nigeria, Powered by Jobberman</a></p></div>
+                                
+                                <div class="workplace">
+                                <p><span class="glyphicon glyphicon-menu-right"></span><a href="#">10 qualities employers look out for</a></p></div>
+                                
+                                <div class="career">
+                                <p><span class="glyphicon glyphicon-menu-right"></span><a href="#">  Two Ways to Differentiate Real Jobs From Fake Jobs</a></p></div>
+                                </div>
+                 			</div>
+                  		 </div>
+                	  </div>
+                     </div>
+            	</div>
+             </div>
+          
+         <div class="footer">
+    	  <div class="container">
+           <div class="row col-md-12">
+          
+            <div class="col-md-3 col-sm-3 col-xs-12">
+             <div class="footer-content">
+             
+              <div class="foot">
+            	<ul>
+                <li class="heading">Information</li>
+                  <li><a href="">About Us</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                    <li><a href="">Privacy Policy</a></li> 
+                    <li><a href="">Careers with Us</a></li> 
+                    <li><a href="">Sitemap</a></li> 
+                    <li><a href="">Contact Us</a></li> 
+                    <li><a href="">FAQs</a></li> 
+                    <li><a href="">Summons / Notices</a></li>
+                    <li><a href="">Grievances</a></li> 
+                    <li><a href="">Fraud Alert</a></li>         
+                 </ul>
+               </div> 
+            </div> 
+           </div>
+           
+           
+           
+        <div class="col-md-3 col-sm-3 col-xs-12">
+          <div class="footer-content">
+            <div class="foot">
+                 <ul>
+                     <span class="heading">Jobseekers</span>
+                     <li><a href="">Register Now</a></li>
+                     <li><a href="">Search Jobs</a></li>
+                     <li><a href="">Login</a></li>
+                     <li><a href="">Create Job Alert</a></li>
+                     <li><a href="">Report a Problem</a></li>
+                     <li><a href="">Blogs</a></li>
+                     <li><a href="">Security Advice</a></li>
+                     <li><a href="">Mobile Site</a></li>
+                  </ul>
+                  <ul class="fast">
+                     <li><a href="#"  style="color:#b6b6b6;">Fast Forward</a></li>
+                     <li><a href="#">Resume Writing</a></li>
+                     <li><a href="#">Profile Enhancement</a></li>
+                     <li><a href="#">Recruiter Reach</a></li>
+                     <li><a href="#">Jobs For You</a></li>
+                 </ul>
+               </div>
+             </div>
+            </div>
+				
+           <div class="col-md-3 col-sm-3 col-xs-12">
+             <div class="footer-content">
+           <div class="foot">
+                 <ul>
+					 <li class="heading">Browse Jobs</li>
+                     <li><a href="">Browse All Jobs</a></li>
+                     <li><a href="">Premium MBA Jobs</a></li>
+                     <li><a href="">Premium Engineering Jobs</a></li>
+                     <li><a href="">Govt. Jobs</a></li>
+                     <li><a href="">International Jobs</a></li>
+                     <li><a href="">Jobs by Company</a></li>
+                     <li><a href="">Jobs by Category</a></li>
+                     <li><a href="">Jobs by Designation</a></li>
+                     <li><a href="#">Jobs by Location</a></li>
+                     <li><a href="#">Jobs by Skill</a></li>
+                 </ul>
+               </div>
+           </div></div>
+           
+           
+           <div class="col-md-3 col-sm-3 col-xs-12">
+             <div class="footer-content">
+           <div class="foot">
+                 <ul>
+                      
+                     <span class="heading">Employers</span>
+                     <li><a href="">Post Jobs</a></li>
+                     <li><a href="">Access Database</a></li>
+                     <li><a href="">Manage Responses</a></li>
+                     <li><a href="">Buy Online</a></li>
+                     <li><a href="">Report a Problem</a></li>
+                     <li><a href="">Recruiters from USA, call</a></li>
+                     <li><a href="">Toll Free # 1866-557-3340</a></li>
+                           
+                 </ul>
+               </div>  
+           </div></div> 
+         </div><!--row-->  
+        </div><!--container-->
+      </div> <!--end of footer-->  
+            
+      	
+      	<div class="copyrights col-md-12 col-sm-12 col-xs-12">	
+           <div class="container">
+           	 <h5 align="center">Copy right © 2016, Job Portal, All Rights Reserved</h5>
+       	   </div>
+      	</div>  
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+</div>
+ 
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
